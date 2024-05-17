@@ -40,7 +40,7 @@ const Login = () => {
   return (
     <div className='user-registration-page'>
         <h1>Login</h1>
-        {message && <p>{message}</p>}
+        {message && <div className='message'><p>{message}</p></div>}
         <form onSubmit={handleSubmit}>
             <div>
                 <label>Email: </label>
